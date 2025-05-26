@@ -19,6 +19,7 @@ export default tseslint.config(
     rules: {
       "trailing-comma": "off",
       "@typescript-eslint/no-unused-vars": "warn",
+      // "dot-notation": "error",
     },
   }
 );
