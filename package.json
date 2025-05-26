@@ -4,7 +4,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "node 'src/server.js'",
+    "dev": "node src/server.ts",
     "format:fix": "npx prettier . --write",
     "format:check": "npx prettier . --check",
     "lint:check": "eslint .",
@@ -38,5 +38,8 @@
       "npm run format:fix",
       "npm run lint:fix"
     ]
+  },
+  "dependencies": {
+    "dotenv": "^16.5.0"
   }
 }

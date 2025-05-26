@@ -1,3 +1,5 @@
+import { Config } from "./config";
+
 function welcomeMessage(name: string) {
   const user = { name: "shobit" };
   const user2 = { name: "shobit" };
@@ -6,3 +8,4 @@ function welcomeMessage(name: string) {
 }
 
 welcomeMessage("Yoyoy");
+console.log(Config.PORT);
