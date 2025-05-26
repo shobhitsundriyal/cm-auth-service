@@ -1,0 +1,25 @@
+{
+  "name": "auth-service",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node 'src/server.js'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shobhitsundriyal/cm-auth-service.git"
+  },
+  "keywords": [],
+  "author": "Shobhit Sundriyal <shobhitsundriyal70@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shobhitsundriyal/cm-auth-service/issues"
+  },
+  "homepage": "https://github.com/shobhitsundriyal/cm-auth-service#readme",
+  "description": "",
+  "devDependencies": {
+    "@types/node": "^22.15.21",
+    "typescript": "^5.8.3"
+  }
+}
