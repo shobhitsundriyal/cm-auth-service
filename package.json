@@ -4,7 +4,9 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "node 'src/server.js'"
+    "dev": "node 'src/server.js'",
+    "format:fix": "npx prettier . --write",
+    "format:check": "npx prettier . --check"
   },
   "repository": {
     "type": "git",
@@ -20,6 +22,7 @@
   "description": "",
   "devDependencies": {
     "@types/node": "^22.15.21",
+    "prettier": "3.5.3",
     "typescript": "^5.8.3"
   }
 }
