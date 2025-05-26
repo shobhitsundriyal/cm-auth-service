@@ -2,9 +2,9 @@
 . "$(dirname "$0")/_/husky.sh"
 
 # Load nvm manually
-export NVM_DIR="$HOME/.nvm"
-. "$NVM_DIR/nvm.sh"
+# export NVM_DIR="$HOME/.nvm"
+# . "$NVM_DIR/nvm.sh"
 
-# Use default node version (adjust if needed)
-nvm use
+# # Use default node version (adjust if needed)
+# nvm use
 npx lint-staged 
