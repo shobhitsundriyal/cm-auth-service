@@ -22,9 +22,14 @@ export default tseslint.config(
         tsconfigRootDir: import.meta.dirname,
       },
     },
+    // plugins: {
+    //   "eslint-comments": (await import("eslint-plugin-eslint-comments"))
+    //     .default,
+    // },
     rules: {
       "trailing-comma": "off",
       "@typescript-eslint/no-unused-vars": "warn",
+      // "eslint-comments/no-unused-disable": "warn",
       // "dot-notation": "error",
     },
   }
