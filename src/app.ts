@@ -4,7 +4,7 @@ import { HttpError } from "http-errors";
 
 const app = express();
 
-app.get("/", (req, res, next) => {
+app.get("/", (req, res) => {
   res.send("Welcome to auth service");
 });
 
